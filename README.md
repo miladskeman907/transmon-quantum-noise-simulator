@@ -1,6 +1,6 @@
 # transmon-quantum-noise-simulator
 Microscopic simulation of transmon qubit T1 relaxation, 1/f flux noise, and MWPM surface code decoding.
-# Transmon Quantum Noise & MWPM Simulator
+
 
 A microscopic quantum hardware simulation suite designed to model decoherence mechanisms in superconducting transmon qubits and evaluate topological error correction performance.
 
