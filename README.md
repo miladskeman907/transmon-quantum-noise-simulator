@@ -17,3 +17,8 @@ A rigorous, research-grade Python simulation suite for superconducting quantum c
 Run the CR gate and transmon simulation suite locally:
 ```bash
 python cr_gate_simulator.py
+Run the CR gate and transmon simulation suite locally:
+```bash
+python cr_gate_simulator.py
+python simulator.py
+
