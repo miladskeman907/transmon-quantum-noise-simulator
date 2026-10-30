@@ -83,7 +83,7 @@ def run_parameter_sweep_tests():
         exact_zz, _ = calculate_exact_zz_from_energies(H)
         approx_zz = calculate_approximate_zz(EJ1=20.0, EC1=0.3, EJ2=estimated_EJ2, EC2=0.25, g_coupling=0.05)
         
-.        print(f"Detuning Δ = {d:.2f} GHz | Exact ZZ: {exact_zz*1000:.4f} MHz | Approx ZZ: {approx_zz*1000:.4f} MHz")
+        print(f"Detuning Δ = {d:.2f} GHz | Exact ZZ: {exact_zz*1000:.4f} MHz | Approx ZZ: {approx_zz*1000:.4f} MHz")
 
 if __name__ == "__main__":
     H_sys = construct_full_transmon_hamiltonian()
